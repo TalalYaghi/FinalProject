@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <div id="scroll-progress-bar" class="scroll-progress-bar"></div>
+
+    <nav id="navbar" class="navbar">
+        <div class="navbar-left">
+            <a href="#" class="logo">My Portfolio</a>
+        </div>
+        <ul class="navbar-right">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education & Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#customers">My Customers</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+        
+    </nav>
+
+    <header id="header" class="header">
+        <div class="header-background"></div>
+        <div class="header-content">
+            <div class="header-left">
+                <h1 id="name-text"></h1>
+                <h2 id="job-title-text"></h2>
+                <p id="short-sentence-text"></p>
+            </div>
+            <div class="header-right">
+                <img src="images/Avatar.JPG" alt="Your Avatar" class="avatar" id="avatar-image">
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about-me">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/personalPhoto.JPG" alt="Personal Photo">
+                </div>
+                <div class="about-description">
+                    <p>
+                     Hey there, my name is Talal Ismail Yaghi, I am 20 years old. Currently a second year student in the Islamic university of Gaza majoring in Computer Sience. 
+                     Graduated from Al karmel school with a GPA of 92.9. an alumini of the Access microscholarship program provided by the Amideast in coorperation with Education USA, and took a certificate estates that I got the score of 15 in an English placement test by the Amideast
+                     currenty working for Youth Vision Society as a part of the social media team and responsible for the website's development.
+                    </p>
+                    <button class="btn btn-primary" id="download-resume-btn">
+                        <i class="fas fa-download"></i> Download Resume
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="my-skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-content">
+                <div class="skills-left">
+                    <div class="skill-bar">
+                        <div class="skill-name">HTML & CSS</div>
+                        <div class="progress-bar">
+                            <div class="progress-fill html-css"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-name">JavaScript</div>
+                        <div class="progress-bar">
+                            <div class="progress-fill javascript"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-name">ReactJS Basics</div>
+                        <div class="progress-bar">
+                            <div class="progress-fill reactjs"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-name">Problem Solving</div>
+                        <div class="progress-bar">
+                            <div class="progress-fill problem-solving"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-right">
+                    <p>
+                        I'm constantly honing my skills in front-end development, focusing on building
+                        responsive and engaging web applications. I'm excited to dive deeper into advanced
+                        JavaScript concepts and explore more frameworks.
+                    </p>
+                    <button class="btn btn-secondary" id="contact-me-btn">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education-experience">
+        <div class="container">
+            <h2>Education & Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor in Computer Science (2025)</h3>
+                        <p>The Islamic University of Gaza - Faculty of Information Technology</p>
+                        <p>Currently pursuing my Bachelor's degree in Computer Science, focusing on developing my self beyond what we take at college.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Photagrapher and video editor(2025)</h3>
+                        <p>Youth Vision Society (YVS)</p>
+                        <p>working as a social media officer responsible for documenting all the activities that are implemented by the YVS, also responsible for publishing new events and news on the official website for the YVS association.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Data Entry (Winter 2025)</h3>
+                        <p>Youth Vision Society (YVS)</p>
+                        <p>worked in the Food Parcels Distribution implemented by Youth vision Society in association with Qatar Red Crescent and MECCA to distribute food parcels to provide support to families.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Internet Caffe(December 2023-january 2025)</h3>
+                        <p>Nashabat's playing center</p>
+                        <p>was the network manager and supervisor, assured the stability of internet connection for students and others, also managed a working space for students and individuals to make sure they are in a sutiable working enviroment, and assisted 10th and 11th graders during there exams helped them with solving the ministries app issues.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Secondary Education(summer 2023)</h3>
+                        <p>Al Karmel for boys school</p>
+                        <p>Graduated from secondary education with a GPA of 92.9.</p>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-cards-grid">
+                <div class="project-card">
+                    <img src="images/project1.jpg" alt="Project 1">
+                    <h3>Advocating to stop violence against children</h3>
+                    <p>It started as some small webinars and now its a full project that includes training setions and awaerness sessions.</p>
+                </div>
+                <div class="project-card">
+                    <img src="images/project2.png" alt="Project 2">
+                    <h3>Eid Mubarak</h3>
+                    <p>A series of events related to eid to ease on children during these hard times.</p>
+                </div>
+                <div class="project-card">
+                    <img src="images/project3.png" alt="Project 3">
+                    <h3>Portfolio</h3>
+                    <p>The final project for web 1.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="customers" class="my-customers">
+        <div class="container">
+            <h2>What My Customers Say</h2>
+            <div class="customer-cards-row">
+                <div class="customer-card">
+                    <img src="images/client1.jpg" alt="Customer 1" class="customer-avatar">
+                    <h3>Assem</h3>
+                    <p>"Helped me with brainstorming the best ideas to include in the E-book project I am working on."</p>
+                </div>
+                <div class="customer-card">
+                    <img src="images/client2.jpg" alt="Customer 2" class="customer-avatar">
+                    <h3>Ibrahim</h3>
+                    <p>"Talal Shared with us the most helpful keywords and advice to help with our website's reach level."</p>
+                </div>
+                <div class="customer-card">
+                    <img src="images/client3.png" alt="Customer 3" class="customer-avatar">
+                    <h3>Kareem</h3>
+                    <p>"Helped with drawing our avatars based on our prefrences and charachteristics , a creative and inovative person."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact-me">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <div class="error-message" id="name-error"></div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                    <div class="error-message" id="email-error"></div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Your message here..." required maxlength="500"></textarea>
+                    <div class="char-count" id="message-char-count">0/500</div>
+                    <div class="error-message" id="message-error"></div>
+                </div>
+                <button type="submit" class="btn btn-primary">Send <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button id="scroll-to-top-btn" class="scroll-to-top-btn" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
